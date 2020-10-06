@@ -1,5 +1,6 @@
 package model;
 
+
 public class Test{
     private String name;
 
@@ -9,5 +10,10 @@ public class Test{
 
     public String getName(){
         return this.name;
+    }
+
+    public static void main(String[] args){
+        Test test = new Test("kenji");
+        System.out.println(test.getName());
     }
 }
