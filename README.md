@@ -1,0 +1,2 @@
+# linguisic
+for oop project
