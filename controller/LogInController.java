@@ -3,7 +3,7 @@ package controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import view.*;
-import model.*;
+// import model.*;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 
@@ -28,7 +28,7 @@ public class LogInController {
     private class TheHandler implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent event){
-            String string = "";
+            // String string = "";
             if(event.getSource() == registerButton){
                 v.setVisible(false);
                 new RegisterController().showWindow();

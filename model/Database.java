@@ -47,15 +47,15 @@ public class Database {
         return i;
     }
     
-    private int setId(){
-        int c;
-        for(c = 0 ; c < fL.size() ; c++){
-            if(fL.get(c).equals(u.getUserName())){
-                break;
-            }
-        }
-        return c;
-    }
+    // private int setId(){
+    //     int c;
+    //     for(c = 0 ; c < fL.size() ; c++){
+    //         if(fL.get(c).equals(u.getUserName())){
+    //             break;
+    //         }
+    //     }
+    //     return c;
+    // }
     
     public void saveUser(User u){
         this.u = u;

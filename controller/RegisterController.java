@@ -30,7 +30,7 @@ public class RegisterController {
     private class TheHandler implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent event){
-            String string = "";
+            // String string = "";
             if(event.getSource() == registerButton){
                 User u = createUser(); 
                 Database db = new Database();
